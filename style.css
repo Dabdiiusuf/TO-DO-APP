@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+
+:root {
+  --background: #101114;
+  --primary-color: #1c1d20;
+  --secondary-color: #4a4d57;
+  --accent-color: #00ffc4;
+  --text-color: #f9f9f9;
+}
+
+body {
+  background-color: rgb(30, 25, 25);
+  font-family: 'Poppins';
+}
+
+#err-message {
+  color: red;
+  text-align: center;
+}
+
+#toDoList {
+  border: 2px solid rgb(87, 235, 245);
+  box-sizing: border-box;
+  padding: 12px 20px;
+  width: 50%;
+  border: 2px solid var(--secondary-color);
+  border-radius: 1000px;
+  font: inherit;
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+#submitBtn {
+  position: absolute;
+  background-color: var(--accent-color);
+  height: 50px;
+  padding: 0 30px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 1000px;
+  font-weight: 600;
+  color: var(--background);
+  cursor: pointer;
+}
+
+#restore-btn {
+  position: absolute;
+  background-color: var(--accent-color);
+  height: 50px;
+  margin-left: 120px;
+  padding: 0 30px;
+  border: none;
+  border-radius: 1000px;
+  font-weight: 600;
+  color: var(--background);
+  cursor: pointer;
+}
+
+.header {
+  color: var(--accent-color);
+  text-transform: uppercase;
+}
+
+p {
+  color: red;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.newInputClass {
+  padding: 0 16px;
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  height: 30px;
+  color: white;
+}
+
+#section-2 {
+  text-align: center;
+}
+#section-3 {
+  text-align: center;
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.change-Btn,
+.done-Btn,
+.delete-Btn {
+  background-color: var(--accent-color);
+  border-radius: 1000px;
+  font-weight: 600;
+  color: var(--background);
+  cursor: pointer;
+  border: none;
+  height: 30px;
+}
